@@ -19,10 +19,10 @@ public class CounterListener implements ActionListener {
         String src = e.getActionCommand();
         System.out.println("Ban da nhan nut: " + src);
 
-        if (src.equals("UP")) {
-            this.ctv.increment();
-        } else if (src.equals("DOWN")) {
-            this.ctv.decrement();
+        switch (src) {
+            case "UP" -> this.ctv.increment();
+            case "DOWN" -> this.ctv.decrement();
+            case "RESET" -> this.ctv.reset();
         }
     }
 }
