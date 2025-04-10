@@ -1,7 +1,7 @@
-package view.MVC;
+package MVC.view;
 
-import controller.CounterListener;
-import model.CounterModel;
+import MVC.controller.CounterListener;
+import MVC.model.CounterModel;
 
 import javax.swing.*;
 import java.awt.*;

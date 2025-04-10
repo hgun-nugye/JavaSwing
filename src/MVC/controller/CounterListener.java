@@ -1,6 +1,6 @@
-package controller;
+package MVC.controller;
 
-import view.MVC.CounterView;
+import MVC.view.CounterView;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

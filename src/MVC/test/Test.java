@@ -1,7 +1,7 @@
-package test;
+package MVC.test;
 
-import model.CounterModel;
-import view.MVC.CounterView;
+import MVC.model.CounterModel;
+import MVC.view.CounterView;
 
 public class Test {
     public static void main(String[] args) {
